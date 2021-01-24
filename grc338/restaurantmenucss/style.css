@@ -1,0 +1,61 @@
+/*CSS DOCUMENT*/
+
+body{
+    background-color: rgb(245,255,250);
+    text-align: center
+    }
+
+h1{
+    color: rgb(135,206,250);
+    font-size: 3.3em;
+    font-family: sans-serif;
+    margin:auto; 
+    
+    }
+
+h2{
+    color: rgb(146,146,146);
+    font-size: 2em;
+    font-family: sans-serif;
+    }
+    
+h3{
+    color: rgb(135,206,250);
+    font-size: 1.9em;
+    font-family: sans-serif;
+    padding: 0.5em;
+    margin:0;
+    background-color: rgb(146,146,146);
+    text-transform: lowercase;
+    
+    }
+
+h4{
+    font-family: serif;
+    font-size: 1.2em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    font-style:oblique;
+    }
+
+p{
+    font-size: 1em;
+    font-family: sans-serif;
+    margin: 0em 0em 0em 0em;  
+    }
+
+ul{
+    padding-left: 0;
+    }
+
+li{
+    list-style:none;
+    }
+
+.price{
+    color: rgb(30,144,255);
+    font-family: sans-serif;
+    margin: 0.5em 0em 1em 0em;
+    }
+.serif{
+    font-family: serif;
+    }

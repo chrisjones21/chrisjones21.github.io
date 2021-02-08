@@ -1,0 +1,108 @@
+/*CSS DOCUMENT*/
+
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;	padding: 0;	border: 0;	vertical-align: baseline;} /*My edited version of the Eric Meyer’s reset tool. Feel free to keep it or delete it. */
+
+div.container{
+    max-width: 60em;
+    margin: auto;
+}
+
+img {
+    width: 100%; /*Please leave this line.*/   
+}
+
+figure{
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    grid-template-rows: 40%;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+h1{
+    color:rgb(166, 49, 19);
+    margin:.5em 0em .2em 0em;
+    font-family:serif;
+    font-size: 3em;
+
+}
+
+h2{
+    color:rgb(166, 49, 19);
+    margin: 0em 0em .5em 0em;
+    font-family: cursive;
+    font-size:2em;  
+}
+
+h3{
+    color: rgb(77, 72, 26);
+    font-size:1.3em;
+    margin: .5em 0em .3em .2em;
+    text-indent: 1.5em;
+    text-transform: uppercase;
+    font-style:italic;
+    
+}
+
+figcaption{
+    text-align:left;
+    font-family:sans-serif;
+    margin: 1em;
+    padding:1em;
+    background-color: rgb(255 255 255);
+    line-height:1.5em;
+    font-size: 1em;
+    font-style:oblique;
+    
+}
+
+ol{
+    margin: 0em 2em 0em 4em;
+    line-height:1.5em;
+    font-family:sans-serif;
+    font-size: 1em;
+    
+}
+
+ul{
+    margin:0em 2em 0em 4em;
+    list-style:none;
+    line-height:2.5em;
+    font-family:sans-serif;
+    font-size: 1em;
+
+}
+    
+body{
+    background-color: rgb(250, 240, 230);  
+}
+
+footer{
+    color:rgb(77, 72, 26);
+    font-size:2em;
+    text-align:center;
+    margin: 0.3em auto;
+  
+   
+}
+
+.ingredients{
+    background: rgb(255, 252, 242);
+    margin: 1em;
+    padding:.5em;
+    
+}
+
+.directions{
+    background: rgb(255, 252, 242);
+    margin: 1em;
+    padding:.5em;
+    
+}
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
